@@ -1,0 +1,98 @@
+/* author: Amritha Gopal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_logo {
+    max-width: 100px;
+    max-height: 50px;
+    min-height: 50px;
+    min-width: 100px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link.active.home {
+    color: rgb(202, 74, 27);
+}
+.logo {
+    max-width: 25px;
+    max-height: 25px;
+    min-height: 25px;
+    min-width: 25px;
+}
+.line-after {
+    border-bottom: 1px solid black;
+}
+.head_text {
+    color: rgb(99, 65, 65);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 70px;
+}
+.text_hindi {
+    color: rgb(202, 74, 27);
+}
+.btn {
+    background-color: #c47a5e;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 0px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: rgb(202, 74, 27);
+    color: #fff;
+    border-radius: 0px;
+}
+.container2 {
+    background-color: rgba(241, 233, 222, 0.849);
+}
+.container3_text {
+    color: rgb(99, 65, 65);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+.gallery_pic1 {
+    margin-left: 100px;
+}
+.box_img {
+    max-width: 200px;
+    max-height: 250px;
+    min-height: 150px;
+    min-width: 250px;
+    background-color: rgb(233, 228, 228);
+}
+.box {
+    max-width: 500px;
+    max-height: 500px;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #ba7d63;
+    font-family: "Times New Roman", Times, serif;
+}
+.button_box {
+    background-color: #c47a5e;
+    max-width: 150px;
+    max-height: 100px;
+    min-height: 50px;
+    min-width: 30px;
+    border-radius: 0px;
+    text-align: center;
+}
+.pic_box {
+    max-width: 900px;
+    max-height: 900px;
+    min-height: 500px;
+    min-width: 500px;
+    background-color: rgb(233, 228, 228);
+}
+/* @media screen and (max-width: 576px) {
+    main {
+        margin-bottom: 500px;
+    }
+} */
